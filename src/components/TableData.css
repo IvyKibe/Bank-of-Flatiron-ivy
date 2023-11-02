@@ -1,0 +1,24 @@
+/* TableData.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid #bd467e;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #62dbdb;
+}
+
+tr:nth-child(even) {
+    background-color: #ebdcee;
+}
+
+tr:hover {
+    background-color: #db139f;
+}
